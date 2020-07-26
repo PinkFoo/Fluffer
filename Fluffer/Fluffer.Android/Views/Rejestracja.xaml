@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Fluffer.Droid.Views.Rejestracja">
+    <ContentPage.Content >
+        <StackLayout Margin="10,100,20,0">
+            <Entry Placeholder="Login"
+               x:Name="Login_nowy"/>
+            <Entry Placeholder="Email"
+               x:Name="Email"/>
+            <Entry Placeholder="Hasło"
+               x:Name="Haslo_nowy"/>
+            <Entry Placeholder="Powtórz hasło"
+               x:Name="Powtorz_haslo"/>
+            <Button Text="Utwórz"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

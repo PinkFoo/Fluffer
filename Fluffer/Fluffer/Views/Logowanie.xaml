@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+              NavigationPage.HasNavigationBar="False"
+             BackgroundImageSource="tlo"
+           xmlns:ef="clr-namespace:AiForms.Effects;assembly=AiForms.Effects"
+
+             x:Class="Fluffer.Droid.Views.Logowanie">
+    <StackLayout Margin="17,17,17,17"
+            Padding="5,20,5,20" BackgroundColor="WhiteSmoke"
+                     ef:Border.Radius="30"
+                 VerticalOptions="CenterAndExpand">
+        <Entry Placeholder="Login"
+               Text="{Binding Login}"
+               x:Name="login"/>
+        <Entry Placeholder="Hasło"
+               Text="{Binding Password}"
+               x:Name="haslo"
+               IsPassword="True"/>
+        <Label Text="Nieprawidłowe hasło lub login." 
+               IsVisible="False"
+               x:Name="blad"
+               TextColor="HotPink"></Label>
+        <StackLayout Padding="50,0,50,0">
+        <Button Text="Zaloguj"
+              
+                ef:ToFlatButton.On="True"
+                 BackgroundColor="Transparent"
+                BorderWidth="1" BorderColor="Black" BorderRadius="30" 
+                x:Name="zalogujButton"
+                Clicked="zalogujButton_Clicked"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+              NavigationPage.HasNavigationBar="False"
+             xmlns:ef="clr-namespace:AiForms.Effects;assembly=AiForms.Effects"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Fluffer.Droid.Views.Ustawienia">
+    <ContentPage.Content>
+        <StackLayout x:Name="stack">
+            <!--<Button Text="Powrót"
+                x:Name="PowrotButton"
+                    ef:ToFlatButton.On="True"
+                    HorizontalOptions="Start"
+                    BackgroundColor="Transparent"
+                Clicked="PowrotButton_Clicked"/>-->
+            <!--<Entry Text="Ustawienia wyszukiwań"/>-->
+            <Label x:Name="login"
+                   Text=""/>
+            <Label x:Name="haslo"
+                   Text=""/>
+            <Image x:Name="zdj"
+                   Source=""/>
+            <Button Text="Pick Photo"
+        Clicked="Button_Clicked" />
+            <Image x:Name="image"></Image>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

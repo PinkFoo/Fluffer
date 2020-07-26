@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluffer.Android", "Fluffer\Fluffer.Android\Fluffer.Android.csproj", "{53F49CC3-19AA-41E3-895A-3FF9C09B53D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluffer", "Fluffer\Fluffer\Fluffer.csproj", "{55F283BD-D360-49DD-A0DB-8F3571B7CE44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53F49CC3-19AA-41E3-895A-3FF9C09B53D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53F49CC3-19AA-41E3-895A-3FF9C09B53D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53F49CC3-19AA-41E3-895A-3FF9C09B53D2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{53F49CC3-19AA-41E3-895A-3FF9C09B53D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53F49CC3-19AA-41E3-895A-3FF9C09B53D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53F49CC3-19AA-41E3-895A-3FF9C09B53D2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{55F283BD-D360-49DD-A0DB-8F3571B7CE44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F283BD-D360-49DD-A0DB-8F3571B7CE44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F283BD-D360-49DD-A0DB-8F3571B7CE44}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{55F283BD-D360-49DD-A0DB-8F3571B7CE44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F283BD-D360-49DD-A0DB-8F3571B7CE44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55F283BD-D360-49DD-A0DB-8F3571B7CE44}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B0074B4-C2B9-44D1-9548-9AC3D60F482B}
+	EndGlobalSection
+EndGlobal

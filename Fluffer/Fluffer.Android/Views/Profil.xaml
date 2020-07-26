@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Fluffer.Droid.Views.Profil">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center">
+            <Button Text="Ustawienia"
+                x:Name="UstawieniaButton"
+                Clicked="UstawieniaButton_Clicked"/>
+            <Button Text="Moje koty"
+                x:Name="MojeButton"
+                Clicked="MojeButton_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

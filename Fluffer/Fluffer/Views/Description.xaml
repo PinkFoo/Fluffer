@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ef="clr-namespace:AiForms.Effects;assembly=AiForms.Effects"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundImageSource="tlo.png"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Fluffer.Views.Description">
+    <ContentPage.Content>
+        <StackLayout  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <CarouselView x:Name="karuzela" ItemsSource="{Binding Photo}" PeekAreaInsets="50">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+
+                        <StackLayout>
+                            <Frame BorderColor="Gray" Margin="8" HasShadow="True" HeightRequest="320" CornerRadius="20" VerticalOptions="CenterAndExpand" BackgroundColor="Transparent">
+                                <StackLayout>
+                                    <Image Source="{Binding Url}" Aspect="AspectFill" HeightRequest="300" WidthRequest="300" HorizontalOptions="Center"/>
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+            <StackLayout Margin="17,17,17,17"
+            Padding="5,20,5,20" BackgroundColor="WhiteSmoke"
+                     ef:Border.Radius="30">
+                <Label x:Name="AnimalName" HorizontalTextAlignment="Center" FontSize="30" TextColor="Black"/>
+                <Label x:Name="AnimalDescription" Margin="20,20" FontSize="20" TextColor="Black"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
